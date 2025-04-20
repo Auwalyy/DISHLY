@@ -1,0 +1,123 @@
+/* Footer.css */
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #acbfa4;
+    width: 100%;
+  }
+  
+  .footer-container {
+     padding: 3rem 1rem;
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    color: #333;
+  }
+  
+  .process-flow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .icon-container {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .process-icon {
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .arrow-icon {
+    font-size: 2rem;
+    color: #000;
+    position: absolute;
+ 
+    margin: 0 auto;
+    right: -30%;
+    top: 30%;
+  }
+  
+  .step-text {
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: 500;
+    max-width: 120px;
+  }
+
+  
+  /* Responsive styles */
+  @media (max-width: 900px) {
+    .process-flow {
+      padding: 0;
+    }
+    
+    .arrow-icon {
+      right: -20%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .process-flow {
+      flex-direction: column;
+      gap: 3rem;
+      padding: 0 2rem;
+    }
+  
+    .arrow-icon {
+        display: none;
+      margin: 1rem 0;
+      transform: rotate(90deg);
+    }
+  
+    .process-step {
+      flex-direction: row;
+      gap: 1rem;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .icon-container {
+      margin-bottom: 0;
+      width: 60px;
+      height: 60px;
+    }
+  
+    .process-icon {
+      font-size: 1.5rem;
+    }
+  
+    .step-text {
+      max-width: none;
+      text-align: left;
+      flex: 1;
+    }
+  }

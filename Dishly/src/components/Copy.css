@@ -1,0 +1,23 @@
+ /* Copy.css */
+
+.copy-container {
+    width: 100%;
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+  }
+  
+  .copyright {
+    color: #fff; /* White text */
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 2rem 0;
+    max-width: 1300px; /* Matching your other components */
+    width: 100%;
+  }
+  
+  /* Optional: Add some top border if needed */
+  .copy-container {
+    border-top: 1px solid #333;
+  }
