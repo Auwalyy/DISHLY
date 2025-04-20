@@ -147,6 +147,10 @@
       flex-direction: column;
       gap: 0.8rem;
     }
+    .email-input{
+      max-width: 100%;
+  }
+  
     
     .cta-button {
       padding: 0.8rem;
