@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <div className='hero'>
-      <h2>Modern Ordering for <span className='res'>Restaurants</span>
+      <h2>Modern Ordering for <span className='res'>Restaurants </span>
        - Without the <span className="middleman">Middleman</span></h2>
       <p className="subtext">Join the waitlist for early access, first 500 members get free delivery for month.</p>
 

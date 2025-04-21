@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='nav'>
         <div className='nav-container'>
             <h1>Dishly</h1>
-            <button>Join waitlist</button>
+            <button>Contact us</button>
         </div>
     </div>
   )
