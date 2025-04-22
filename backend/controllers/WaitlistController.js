@@ -4,8 +4,7 @@ exports.addToWaitlist = async (req, res) => {
   try {
     const { email } = req.body;
 
-    // Basic validation
-    if (!email) {
+     if (!email) {
       return res.status(400).json({ error: 'Email is required' });
     }
 

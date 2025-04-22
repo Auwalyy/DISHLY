@@ -26,16 +26,16 @@ app.use('/api/waitlist', WaitlistRoutes);
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  serverSelectionTimeoutMS: 5000, // Timeout after 5s instead of 10s
-  socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
+  serverSelectionTimeoutMS: 5000, 
+  socketTimeoutMS: 45000, 
 })
 .then(() => console.log('MongoDB Connected'))
 .catch(err => {
   console.error('MongoDB Connection Error:', err);
-  process.exit(1); // Exit process on connection failure
+  process.exit(1);  
 });
 
-// Start server
+//server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
